@@ -10,7 +10,7 @@ Part 1: K-Means Clustering
 Part 2: Image Color Quantization
     use 1,2,3,4,5 as an argument to select different images.
 
-    python part2.py [argv]
+    python part2.py 3
 
 ### Libraries Used
 - numpy
