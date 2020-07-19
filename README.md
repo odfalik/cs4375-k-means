@@ -2,8 +2,12 @@
 ## K-Means Clustering and Image Quantization
 ## Oded Falik and Ramin Nourbakhsh
 
-### How to Run:
-    python assignment1.py
+### How to Run
+Part 1: K-Means Clustering
+    python part1.py
+
+Part 2: Image Color Quantization
+    python part2.py
 
 ### Libraries Used
 - numpy
