@@ -1,12 +1,14 @@
 # cs4375-k-means
-## K-Means Clustering and Image Quantization
-## Oded Falik and Ramin Nourbakhsh
+#### K-Means Clustering and Image Quantization
+#### Oded Falik and Ramin Nourbakhsh
 
 ### How to Run
 Part 1: K-Means Clustering
+
     python part1.py
 
 Part 2: Image Color Quantization
+
     python part2.py
 
 ### Libraries Used
