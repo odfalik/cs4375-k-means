@@ -8,7 +8,7 @@ Part 1: K-Means Clustering
     python part1.py
 
 Part 2: Image Color Quantization
-    use 1,2,3,4,5 as an argument to select different images.
+    use 1, 2, 3, 4, or 5 as an argument to select different images.
 
     python part2.py 3
 
@@ -18,6 +18,7 @@ Part 2: Image Color Quantization
 - scikit-learn (sklearn)
 - matplotlib
 - requests, io, sys
+- PIL
 
 Developed on Python 3.8.4 64-bit
 Should work on Python 3+
