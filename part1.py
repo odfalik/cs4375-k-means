@@ -4,12 +4,14 @@ import pandas as pd
 from matplotlib import pyplot as plt
 from sklearn.cluster import KMeans
 
-# data_url = 'https://utdallas.edu/~oxf170130/cs4375-k-means/echonest.csv'
-data_url = 'data/echonest.csv'
+data_url = 'https://utdallas.edu/~oxf170130/cs4375-k-means/echonest.csv'
+response = requests.get(data_url)
+
+file_object = io.StringIO(response.content.decode('utf-8'))
 
 print('Downloading dataset...')
 df = pd.read_csv(
-    data_url,
+    file_object,
     header=[0,1,2]                                  # Header of CSV file is 3 lines tall
 )
 print('Download complete.')
